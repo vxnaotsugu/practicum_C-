@@ -4,7 +4,6 @@
 // 7 -> нет
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
-//float result = number / 2;
 if (number % 2 == 0)
 {
     Console.WriteLine("Да"); 
