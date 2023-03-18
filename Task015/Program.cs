@@ -3,3 +3,7 @@
 // 6 -> да
 // 7 -> да
 // 1 -> нет
+Console.WriteLine("Введите цифру которая обозначает день недели");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number <= 5) Console.WriteLine("Рабочий день");
+else Console.WriteLine("Выходной день");
