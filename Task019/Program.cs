@@ -10,7 +10,6 @@ if (9999 < number && number < 100000)
     string str = Convert.ToString(number);
     int number0 = Convert.ToInt32(str[0]);
     int number1 = Convert.ToInt32(str[1]);
-    int number2 = Convert.ToInt32(str[2]);
     int number3 = Convert.ToInt32(str[3]);
     int number4 = Convert.ToInt32(str[4]);
     string result = number0 == number4 ? result = "Да" : result = "Нет";
